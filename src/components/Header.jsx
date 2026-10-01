@@ -44,7 +44,7 @@ export default function Header() {
             </p>
             <div className="flex gap-4">
               <a 
-                href="https://github.com" 
+                href="https://github.com/stanloona64" 
                 target="_blank" 
                 rel="noreferrer"
                 className="px-6 py-3 rounded-lg border border-[#CBF281] text-[#CBF281] font-semibold hover:bg-[#CBF281] hover:text-black transition"
@@ -52,7 +52,7 @@ export default function Header() {
                 {header.github}
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/beyza-%C3%B6nal-9b6866219/" 
                 target="_blank" 
                 rel="noreferrer"
                 className="px-6 py-3 rounded-lg border border-[#CBF281] text-[#CBF281] font-semibold hover:bg-[#CBF281] hover:text-black transition"

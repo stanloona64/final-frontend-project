@@ -35,15 +35,17 @@
           "name": "Workintech Pizza",
           "description": "A pizza ordering web application built with React and Tailwind CSS. It features dynamic form validation, interactive option selection, and responsive checkout steps.",
           "tags": ["react", "tailwind", "redux"],
-          "github": "https://github.com",
-          "app": "https://github.com"
+          "github": "https://github.com/stanloona64/fsweb-s8-challenge-pizza",
+          "app": "https://fsweb-s8-challenge-pizza-eta-self.vercel.app",
+          "image": "https://i.ibb.co/vCfbGcbD/pizza-pp.png"
         },
         {
           "name": "Pusula",
           "description": "A web application developed to find the Qibla direction. It is built using basic web components and provides a user-friendly interface.",
           "tags": ["Javascript", "HTML", "CSS"],
           "github": "https://github.com/stanloona64/kible-pusulasi/tree/main",
-          "app": "https://stanloona64.github.io/kible-pusulasi/"
+          "app": "https://stanloona64.github.io/kible-pusulasi/",
+          "image": "https://i.ibb.co/pB2zKWv4/pusula-pp.png"
         }
       ]
     }
@@ -84,17 +86,41 @@
           "name": "Workintech Pizza",
           "description": "React ve Tailwind CSS ile geliştirilmiş bir pizza sipariş web uygulaması. Dinamik form doğrulama, interaktif seçenek seçimi ve duyarlı ödeme adımları içerir.",
           "tags": ["react", "tailwind", "redux"],
-          "github": "https://github.com",
-          "app": "https://github.com"
+          "github": "https://github.com/stanloona64/fsweb-s8-challenge-pizza",
+          "app": "https://fsweb-s8-challenge-pizza-eta-self.vercel.app",
+          "image": "https://i.ibb.co/vCfbGcbD/pizza-pp.png"
         },
         {
           "name": "Pusula",
           "description": "Kıble yönünü bulmak için geliştirilmiş bir web uygulaması. Temel web bileşenleri kullanılarak oluşturulmuş, kullanıcı dostu bir arayüz sunar.",
           "tags": ["Javascript", "HTML", "CSS"],
           "github": "https://github.com/stanloona64/kible-pusulasi/tree/main",
-          "app": "https://stanloona64.github.io/kible-pusulasi/"
+          "app": "https://stanloona64.github.io/kible-pusulasi/",
+          "image": "https://i.ibb.co/pB2zKWv4/pusula-pp.png"
         }
       ]
     }
-  }
+  },
+  "footer": {
+    "tr": {
+        "title": "Bana mesaj gönderin.",
+        "description": "Bir sorunuz ya da isteğiniz mi var, ya da sadece merhaba demek mi istiyorsunuz. O zaman buyrun.",
+        "email": "onal.beyza@gmail.com",
+        "socials": [
+        { "name": "Twitter", "url": "https://twitter.com", "icon": "twitter" },
+        { "name": "Gmail", "url": "mailto:onal.beyza@gmail.com", "icon": "envelope" },
+        { "name": "Instagram", "url": "https://instagram.com", "icon": "instagram" }
+        ]
+    },
+    "en": {
+        "title": "Send me a message.",
+        "description": "Got a question or proposal, or just want to say hello? Go ahead.",
+        "email": "onal.beyza@gmail.com",
+        "socials": [
+        { "name": "Twitter", "url": "https://twitter.com", "icon": "twitter" },
+        { "name": "Gmail", "url": "mailto:onal.beyza@gmail.com", "icon": "envelope" },
+        { "name": "Instagram", "url": "https://instagram.com", "icon": "instagram" }
+        ]
+    }
+    }
 }
