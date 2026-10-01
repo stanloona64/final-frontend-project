@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function MainContent() {
   return (
-    <div className="min-h-screen bg-white dark:bg-[#140E2D] text-gray-900 dark:text-gray-100 transition-colors duration-300">
+    <div className="min-h-screen bg-white dark:bg-[#140E2D] text-gray-900 dark:text-gray-100 transition-colors duration-300 text-left">
       <Header />
       <Skills />
       <Profile />

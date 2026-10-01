@@ -9,12 +9,12 @@
     },
     "skillsTitle": "Skills",
     "skills": [
-      { "name": "JavaScript" },
-      { "name": "React" },
-      { "name": "Redux" },
-      { "name": "Docker" },
-      { "name": "Java" },
-      { "name": "Kubernetes" }
+      { "name": "JavaScript", "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" },
+      { "name": "React", "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" },
+      { "name": "Redux", "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png" },
+      { "name": "Docker", "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" },
+      { "name": "Java", "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" },
+      { "name": "Kubernetes", "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png" }
     ],
     "profile": {
       "title": "Profile",
@@ -39,11 +39,11 @@
           "app": "https://github.com"
         },
         {
-          "name": "Cloud Pipeline Dashboard",
-          "description": "A monitoring dashboard interface designed for cloud and DevOps workflows, tracking container health and automated deployment processes.",
-          "tags": ["react", "redux", "vercel"],
-          "github": "https://github.com",
-          "app": "https://github.com"
+          "name": "Pusula",
+          "description": "A web application developed to find the Qibla direction. It is built using basic web components and provides a user-friendly interface.",
+          "tags": ["Javascript", "HTML", "CSS"],
+          "github": "https://github.com/stanloona64/kible-pusulasi/tree/main",
+          "app": "https://stanloona64.github.io/kible-pusulasi/"
         }
       ]
     }
@@ -58,12 +58,12 @@
     },
     "skillsTitle": "Yetenekler",
     "skills": [
-      { "name": "JavaScript" },
-      { "name": "React" },
-      { "name": "Redux" },
-      { "name": "Docker" },
-      { "name": "Java" },
-      { "name": "Kubernetes" }
+        { "name": "JavaScript", "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" },
+        { "name": "React", "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" },
+        { "name": "Redux", "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png" },
+        { "name": "Docker", "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" },
+        { "name": "Java", "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" },
+        { "name": "Kubernetes", "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png" }
     ],
     "profile": {
       "title": "Profil",
@@ -88,11 +88,11 @@
           "app": "https://github.com"
         },
         {
-          "name": "Cloud Pipeline Dashboard",
-          "description": "Bulut ve DevOps iş akışları için tasarlanmış, konteyner sağlığını ve otomatik dağıtım süreçlerini takip eden bir izleme paneli arayüzü.",
-          "tags": ["react", "redux", "vercel"],
-          "github": "https://github.com",
-          "app": "https://github.com"
+          "name": "Pusula",
+          "description": "Kıble yönünü bulmak için geliştirilmiş bir web uygulaması. Temel web bileşenleri kullanılarak oluşturulmuş, kullanıcı dostu bir arayüz sunar.",
+          "tags": ["Javascript", "HTML", "CSS"],
+          "github": "https://github.com/stanloona64/kible-pusulasi/tree/main",
+          "app": "https://stanloona64.github.io/kible-pusulasi/"
         }
       ]
     }
