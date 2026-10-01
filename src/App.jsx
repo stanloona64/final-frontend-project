@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Skills from './components/Skills';
 import Profile from './components/Profile';
-import './index.css';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
+
 function App() {
   const [language, setLanguage] = useState('tr');
   const [darkMode, setDarkMode] = useState(false);
@@ -18,6 +20,8 @@ function App() {
         />
         <Skills language={language} />
         <Profile language={language} />
+        <Projects language={language} />
+        <Footer language={language} />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
-@tailwindbase;
-@tailwindcomponents;
-@tailwindutilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --text: #6b6375;

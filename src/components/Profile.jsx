@@ -3,39 +3,52 @@ import { data } from '../data';
 
 export default function Profile({ language }) {
   const content = data[language].profile;
+
   return (
-    <section className="bg-[#4731D3] dark:bg-[#171043] text-white py-16 px-6 md:px-20 transition-colors duration-300">
-        <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-[#CBF281]">
-            {content.title}
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                <div className="bg-[#5238EE] dark:bg-[#201552] p-8 rounded-2xl shadow-lg border border-[#6b51ff]">
-                    <h3 className="text-2xl font-semibold mb-6 text-white">
-                    {content.title}
-                    </h3>
-                    <div className="space-y-4">
-                        {content.basicMetrics.map((item, index) => (
-                            <div key={index} className="flex flex-col sm:flex-row justify-between border-b border-[#6b51ff] pb-3 gap-1">
-                                <span className="font-semibold text-[#CBF281]">{item.label}</span>
-                                <span className="text-gray-100 text-right sm:max-w-[60%]">{item.value}</span>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-                <div className="flex flex-col justify-center">
-                    <h3 className="text-2xl font-semibold mb-6 text-white">
-                    {content.aboutTitle}
-                    </h3>
-                    <p className="text-gray-200 text-base leading-relaxed mb-4">
-                    {content.aboutText1}
-                    </p>
-                    <p className="text-gray-200 text-base leading-relaxed">
-                    {content.aboutText2}
-                    </p>
-                </div>
+    <section className="bg-[#4832D3] dark:bg-[#171023] py-16 px-6 md:px-20 text-white transition-colors duration-300">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#CBF281] mb-12">
+          {content.title}
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
+          <div className="bg-[#523EB7] dark:bg-[#2B2638] p-6 rounded-2xl shadow-md">
+            <h3 className="text-xl font-bold text-[#CBF281] mb-6">
+              {language === 'tr' ? 'Temel Bilgiler' : 'Basic Information'}
+            </h3>
+            <ul className="space-y-4 text-sm">
+              {content.basicMetrics.map((item, index) => (
+                <li key={index} className="flex flex-col">
+                  <span className="text-[#CBF281] font-semibold">{item.label}</span>
+                  <span className="text-gray-100">{item.value}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="flex justify-center items-center">
+            <img 
+              src="https://i.ibb.co/VcJycPhY/beyzaonal.png" 
+              alt="Profile" 
+              className="w-64 h-80 object-cover rounded-2xl shadow-xl border-4 border-[#CBF281]"
+            />
+          </div>
+
+          <div className="bg-[#523EB7] dark:bg-[#2B2638] p-6 rounded-2xl shadow-md flex flex-col justify-between h-full">
+            <div>
+              <h3 className="text-xl font-bold text-[#CBF281] mb-6">
+                {content.aboutTitle}
+              </h3>
+              <p className="text-gray-100 text-sm leading-relaxed mb-4">
+                {content.aboutText1}
+              </p>
+              <p className="text-gray-100 text-sm leading-relaxed">
+                {content.aboutText2}
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </section>
   );
 }
