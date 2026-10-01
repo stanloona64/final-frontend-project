@@ -1,8 +1,11 @@
-import React from 'react';
-import { data } from '../data';
+import React, { useContext } from 'react';
+import { LanguageContext } from '../contexts/LanguageContext';
 
-export default function Profile({ language }) {
-  const content = data[language].profile;
+export default function Profile() {
+  const { apiData, language } = useContext(LanguageContext);
+  if (!apiData) return null;
+
+  const content = apiData.profile;
 
   return (
     <section className="bg-[#4832D3] dark:bg-[#171023] py-16 px-6 md:px-20 text-white transition-colors duration-300">

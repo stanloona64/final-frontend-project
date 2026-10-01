@@ -1,0 +1,100 @@
+{
+  "en": {
+    "header": {
+      "name": "beyza",
+      "title": "I am a Frontend Developer...",
+      "description": "...who likes to craft solid and scalable frontend products with great user experiences.",
+      "github": "Github",
+      "linkedin": "LinkedIn"
+    },
+    "skillsTitle": "Skills",
+    "skills": [
+      { "name": "JavaScript" },
+      { "name": "React" },
+      { "name": "Redux" },
+      { "name": "Docker" },
+      { "name": "Java" },
+      { "name": "Kubernetes" }
+    ],
+    "profile": {
+      "title": "Profile",
+      "basicMetrics": [
+        { "label": "Birth Date", "value": "21.03.2001" },
+        { "label": "City", "value": "Uşak" },
+        { "label": "Education", "value": "Karabük University Computer Engineering, 2025" },
+        { "label": "Preferred Role", "value": "Frontend, DevOps & Cloud" }
+      ],
+      "aboutTitle": "About me",
+      "aboutText1": "I am a graduate of Karabük University Computer Engineering. I focus on developing scalable, high-performance web applications and mastering modern cloud and containerization tools.",
+      "aboutText2": "With a strong background in frontend development and cloud technologies, I love crafting clean user interfaces and automating deployment pipelines to build seamless digital products."
+    },
+    "projects": {
+      "title": "Projects",
+      "list": [
+        {
+          "name": "Workintech Pizza",
+          "description": "A pizza ordering web application built with React and Tailwind CSS. It features dynamic form validation, interactive option selection, and responsive checkout steps.",
+          "tags": ["react", "tailwind", "redux"],
+          "github": "https://github.com",
+          "app": "https://github.com"
+        },
+        {
+          "name": "Cloud Pipeline Dashboard",
+          "description": "A monitoring dashboard interface designed for cloud and DevOps workflows, tracking container health and automated deployment processes.",
+          "tags": ["react", "redux", "vercel"],
+          "github": "https://github.com",
+          "app": "https://github.com"
+        }
+      ]
+    }
+  },
+  "tr": {
+    "header": {
+      "name": "beyza",
+      "title": "Frontend Developer'ım...",
+      "description": "...harika kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir frontend ürünleri tasarlamayı seviyorum.",
+      "github": "Github",
+      "linkedin": "LinkedIn"
+    },
+    "skillsTitle": "Yetenekler",
+    "skills": [
+      { "name": "JavaScript" },
+      { "name": "React" },
+      { "name": "Redux" },
+      { "name": "Docker" },
+      { "name": "Java" },
+      { "name": "Kubernetes" }
+    ],
+    "profile": {
+      "title": "Profil",
+      "basicMetrics": [
+        { "label": "Doğum Tarihi", "value": "21.03.2001" },
+        { "label": "İkamet Şehri", "value": "Uşak" },
+        { "label": "Eğitim Durumu", "value": "Karabük Üniversitesi Bilgisayar Mühendisliği, 2025" },
+        { "label": "Tercih Ettiği Rol", "value": "Frontend, DevOps & Cloud" }
+      ],
+      "aboutTitle": "Hakkımda",
+      "aboutText1": "Karabük Üniversitesi Bilgisayar Mühendisliği mezunuyum. Ölçeklenebilir, yüksek performanslı web uygulamaları geliştirmeye ve modern bulut & konteyner araçlarında uzmanlaşmaya odaklanıyorum.",
+      "aboutText2": "Frontend geliştirme ve bulut teknolojilerindeki güçlü altyapım ile temiz kullanıcı arayüzleri tasarlamayı ve kusursuz dijital ürünler inşa etmek için dağıtım süreçlerini otomatikleştirmeyi seviyorum."
+    },
+    "projects": {
+      "title": "Projeler",
+      "list": [
+        {
+          "name": "Workintech Pizza",
+          "description": "React ve Tailwind CSS ile geliştirilmiş bir pizza sipariş web uygulaması. Dinamik form doğrulama, interaktif seçenek seçimi ve duyarlı ödeme adımları içerir.",
+          "tags": ["react", "tailwind", "redux"],
+          "github": "https://github.com",
+          "app": "https://github.com"
+        },
+        {
+          "name": "Cloud Pipeline Dashboard",
+          "description": "Bulut ve DevOps iş akışları için tasarlanmış, konteyner sağlığını ve otomatik dağıtım süreçlerini takip eden bir izleme paneli arayüzü.",
+          "tags": ["react", "redux", "vercel"],
+          "github": "https://github.com",
+          "app": "https://github.com"
+        }
+      ]
+    }
+  }
+}
